@@ -1,0 +1,51 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(68,126,190,1) 100%);
+    font-family: marvin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karakter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 250px;
+    justify-items: center;
+    grid-gap: 1em;
+    margin-top: 2em;
+}
+
+.karakter__navn {
+    font-size: 1.5em;
+    color: #56E9BF;
+    text-shadow: 2px 2px #000000;
+}
+
+.karakter__skift-navn {
+    display: flex;
+    grid-row: 1 / 2;
+}
+
+#pen-ikon {
+    margin: 25px 0px 0px 10px;
+}
+
+ .karakter__platform, .karakter__figur {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.karakter__platform {
+    z-index: -1;
+    align-self: flex-end;
+}
+
+.karakter__figur {
+    margin-bottom: 2em;
+}
