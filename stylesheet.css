@@ -9,9 +9,18 @@
 
 /* fonts */
 
- 
-/* mobile styles */
 
+/* start page */
 
-/* desktop styles */
-
+.startbtn{
+    margin-top: 1.4rem;
+    background-color: #ffffff;
+    color: #35B6F7;
+    border: solid 8px;
+    border-radius: 360px ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 80px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
