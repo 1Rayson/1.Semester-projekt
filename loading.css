@@ -6,7 +6,38 @@
 
 /* base style */
 .loading__gif {
-   width: 500%;
+   position: relative;
+   width: 100%;
+    top: 3em;
+    z-index: 0;
+}
+
+.text-layout {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-row: 1fr; 
+}
+
+.text-layout--left {
+   background-color: #ffffff;
+   padding: 30px;
+   transform: rotate(-5deg);
+   grid-template: 1 / 2;
+   grid-row: 2 / 3;
+   font-size: 2em;
+}
+
+.text-layout--right {
+   background-color: #ffffff;
+   padding: 30px;
+   transform: rotate(-15deg);
+   grid-column: 2 / 4;
+   grid-row: 2 / 3;
+   font-size: 1em;
+}
+
+.text-layout--left, .text-layout--right {
+   grid-column: span 3;
 }
 
 
