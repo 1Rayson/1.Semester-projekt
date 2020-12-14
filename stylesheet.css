@@ -7,11 +7,92 @@
 /* base style */
 
 
+
+/* background */
+
+.body-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat (6, 1fr);
+    
+}
+.big-box {
+    grid-column: span 2;
+}
+
+   
+.colour1 {
+    background-color: #5673E8;
+    animation-name: colour1;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.colour2 {
+    background-color: #5AF2F3;
+    animation-name: colour2;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.colour3 {
+    background-color: #5AA1F1;
+    animation-name: colour3;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.colour4 {
+    background-color: #56E9BF;
+    animation-name: colour4;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.colour5 {
+    background-color: #5DBADB;
+    animation-name: colour5;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+} 
+@keyframes colour1 {
+    0% { background-color: #5673E8;}
+    50% { background-color: #5AF2F3;}
+    100% { background-color: #5673E8;}
+}
+@keyframes colour2 {
+    0% { background-color: #5AF2F3;}
+    50% { background-color: #5AA1F1;}
+    100% { background-color:#5AF2F3;}
+}
+@keyframes colour3 {
+    0% { background-color: #5AA1F1;}
+    50% { background-color: #56E9BF;}
+    100% { background-color: #5AA1F1;}
+}
+@keyframes colour4 {
+    0% { background-color: #56E9BF;}
+    50% { background-color: #5DBADB;}
+    100% { background-color:#56E9BF;}
+}
+@keyframes colour5 {
+    0% { background-color: #5DBADB;}
+    50% { background-color: #5673E8;}
+    100% { background-color:#5DBADB;}
+}
+
 /* fonts */
 body{
     font-family: Marvin-round, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 /* start page */
@@ -24,6 +105,8 @@ body{
 }
 
 .startbtn{
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-around;
