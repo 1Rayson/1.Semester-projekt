@@ -20,7 +20,7 @@ body {
 
 .karakter__navn {
     font-size: 1.5em;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
 }
 
 .fa-pen {
@@ -36,7 +36,7 @@ body {
     left: 7%;
     top: 3%;
     font-size: 2em;
-    color: #56E9BF;
+    color: #ffffff;
     
 }
 
@@ -97,7 +97,7 @@ body {
     font-size: 2em;
     border-bottom: solid 3px #56E9BF;
     margin-top: 1em;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
 }
 
 .tilpasse-karakter--flex {
@@ -147,7 +147,7 @@ body {
     margin-top: 1.5em;
     margin-bottom: 2em;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
-    text-shadow: 2px 2px #000000;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
 }
 
 
