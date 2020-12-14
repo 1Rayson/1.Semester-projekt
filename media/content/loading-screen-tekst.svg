@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="484.486" height="286.216" viewBox="0 0 484.486 286.216">
+  <defs>
+    <filter id="Rectangle_244" x="0" y="0" width="368.159" height="174.96" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.949"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_245" x="111.673" y="78.744" width="372.813" height="207.472" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.949"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Velkommen" x="46.291" y="38.388" width="277.262" height="98.542" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="I_fætter_br" x="149.992" y="120.899" width="274.923" height="123.602" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2737" data-name="Group 2737" transform="translate(41.079 -490.02)">
+    <g transform="matrix(1, 0, 0, 1, -41.08, 490.02)" filter="url(#Rectangle_244)">
+      <rect id="Rectangle_244-2" data-name="Rectangle 244" width="338" height="111" transform="translate(9 53.04) rotate(-8)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -41.08, 490.02)" filter="url(#Rectangle_245)">
+      <rect id="Rectangle_245-2" data-name="Rectangle 245" width="338" height="111" transform="translate(120.67 166.51) rotate(-14)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -41.08, 490.02)" filter="url(#Velkommen)">
+      <text id="Velkommen-2" data-name="Velkommen" transform="translate(61.08 120.98) rotate(-9)" font-size="41" font-family="MarvinRound, Marvin Round"><tspan x="0" y="0">Velkommen</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -41.08, 490.02)" filter="url(#I_fætter_br)">
+      <text id="I_fætter_br-2" data-name="I fætter br" transform="matrix(0.97, -0.26, 0.26, 0.97, 168.57, 228.64)" font-size="41" font-family="MarvinRound, Marvin Round"><tspan x="0" y="0">I fætter br</tspan></text>
+    </g>
+  </g>
+</svg>
