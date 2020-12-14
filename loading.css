@@ -5,11 +5,11 @@
 
 
 /* base style */
-.loading__gif {
+.image__gif {
    position: relative;
-   width: 100%;
-    top: 3em;
-    z-index: 0;
+   width: 70%;
+   left: 20%;
+   margin-top: 20%;
 }
 
 .text-layout {
@@ -18,26 +18,21 @@
    grid-row: 1fr; 
 }
 
-.text-layout--left {
-   background-color: #ffffff;
-   padding: 30px;
-   transform: rotate(-5deg);
-   grid-template: 1 / 2;
-   grid-row: 2 / 3;
-   font-size: 2em;
+.text-layout {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   overflow: hidden;
+   justify-items: center;
+
 }
 
-.text-layout--right {
-   background-color: #ffffff;
-   padding: 30px;
-   transform: rotate(-15deg);
-   grid-column: 2 / 4;
-   grid-row: 2 / 3;
-   font-size: 1em;
-}
-
-.text-layout--left, .text-layout--right {
-   grid-column: span 3;
+.loading-screen-tekst { 
+   width: 120%;
+   margin-top: 10%;
+   z-index: 1;
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
 }
 
 
