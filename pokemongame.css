@@ -1,0 +1,55 @@
+
+
+
+/*landscapemode*/
+
+body {
+    
+background-image: url(/media/backgrounds/baggrund_pokemongame.jpg);
+orientation: landscape;
+background-size: 950px;
+
+}
+
+.pikachu {
+    width: 100px;
+    margin-top: 250px;
+}
+
+
+.pikachu:hover {
+
+  position: relative;
+  animation-name: pikachuanimation;
+  animation-duration: 5s;
+}
+
+@keyframes pikachuanimation {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    left: 300px;
+  }
+  75% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/*portraitmode*/
+@media (orientation: portrait)
+
+{
+    body {background-image:url(/media/backgrounds/flipyourphone.png);
+    background-size: cover;}
+    img {display: none;}
+}

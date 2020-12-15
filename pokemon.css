@@ -1,0 +1,46 @@
+/*backgroundstyles*/
+
+body {background-image: url(/media/backgrounds/ar_pokemon.jpg);
+background-size: cover;}
+
+/*headerstyles*/
+
+header {display: grid;
+grid-template-columns: 1fr 1fr;}
+
+.afslut {
+background-color:#D24D4D;
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 10px;}
+
+.ar {grid-column: end;}
+
+/*footerstyles */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FEF35B;
+    height: 130px;
+    width: 100%;
+    border-radius: 300px;
+    position: fixed;
+    margin-top: 600px;
+right: 0;}
+
+a {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 180px;
+}
+
+/* /*knapper i footeren */
+.brush {width: 70px;}
+.ball {width: 70px;}
+.berry {width: 70px;}
+
