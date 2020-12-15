@@ -62,7 +62,6 @@ body {
 
 .karakter__platform {
     align-self: flex-end;
-    
 }
 
 /* roterende animation på figuren */
@@ -140,7 +139,7 @@ body {
     font-family: Marvin, sans-serif;
     font-size: 2em;
     padding: 0px 35px 0px 35px;
-    border: solid none;
+    border: solid 5px #ffffff;
     border-radius: 20px;
     text-decoration: none;
     margin-top: 1.5em;

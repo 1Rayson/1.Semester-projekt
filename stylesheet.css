@@ -130,18 +130,27 @@ body{
 
 /* info */
 
+.info-tekst--flex {
+    display: flex;
+    justify-content: center;
+}
+
 .info-tekst {
     position: relative;
-    left: 19%;
+    display: flex;
     font-size: 1.5em;
     color: #ffffff;
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
     display: inline-block;
 }
 
-.button--style {
+.button--flex {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
     position: relative;
-    left: 27%;
     top: 5em;
     background-color: #56E9BF;
     color: #ffffff;
