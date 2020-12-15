@@ -1,5 +1,11 @@
-
-
+/* backarrow */
+.fa-chevron-circle-left{
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  font-size: 2em;
+  color: #ffffff;
+}
 
 /*landscapemode*/
 

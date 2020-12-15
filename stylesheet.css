@@ -1,12 +1,13 @@
-/* Variabel */
-
-
-/* reset */
-
-
 /* base style */
 
 
+/* fonts */
+body{
+    font-family: Marvin-round, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
 
 /* background */
 
@@ -21,6 +22,7 @@
     grid-template-rows: repeat (6, 1fr);
     
 }
+
 .big-box {
     grid-column: span 2;
 }
@@ -33,6 +35,7 @@
     position: relative;
     animation-iteration-count: infinite;
 }
+
 .colour2 {
     background-color: #5AF2F3;
     animation-name: colour2;
@@ -40,6 +43,7 @@
     position: relative;
     animation-iteration-count: infinite;
 }
+
 .colour3 {
     background-color: #5AA1F1;
     animation-name: colour3;
@@ -47,6 +51,7 @@
     position: relative;
     animation-iteration-count: infinite;
 }
+
 .colour4 {
     background-color: #56E9BF;
     animation-name: colour4;
@@ -54,45 +59,43 @@
     position: relative;
     animation-iteration-count: infinite;
 }
+
 .colour5 {
     background-color: #5DBADB;
     animation-name: colour5;
     animation-duration: 4s;
     position: relative;
     animation-iteration-count: infinite;
-} 
+}
+
 @keyframes colour1 {
     0% { background-color: #5673E8;}
     50% { background-color: #5AF2F3;}
     100% { background-color: #5673E8;}
 }
+
 @keyframes colour2 {
     0% { background-color: #5AF2F3;}
     50% { background-color: #5AA1F1;}
     100% { background-color:#5AF2F3;}
 }
+
 @keyframes colour3 {
     0% { background-color: #5AA1F1;}
     50% { background-color: #56E9BF;}
     100% { background-color: #5AA1F1;}
 }
+
 @keyframes colour4 {
     0% { background-color: #56E9BF;}
     50% { background-color: #5DBADB;}
     100% { background-color:#56E9BF;}
 }
+
 @keyframes colour5 {
     0% { background-color: #5DBADB;}
     50% { background-color: #5673E8;}
     100% { background-color:#5DBADB;}
-}
-
-/* fonts */
-body{
-    font-family: Marvin-round, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
 }
 
 /* start page */
@@ -120,8 +123,7 @@ body{
     padding: 80px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
     text-decoration: none;
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
-
+    text-shadow: 2px 2px rgba(0, 0, 0, 1);
 }
 
 

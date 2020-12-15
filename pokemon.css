@@ -29,7 +29,7 @@ footer {
     border-radius: 300px;
     position: fixed;
     margin-top: 600px;
-right: 0;}
+    right: 0;}
 
 a {
     background-color: white;
@@ -39,7 +39,7 @@ a {
     border-radius: 180px;
 }
 
-/* /*knapper i footeren */
+/*knapper i footeren */
 .brush {width: 70px;}
 .ball {width: 70px;}
 .berry {width: 70px;}
