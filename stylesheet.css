@@ -143,6 +143,11 @@ body{
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 1);
     display: inline-block;
 }
+.br{
+    position: relative;
+    width: 100%;
+    top: 3em;
+}
 
 .button--flex {
     display: flex;
@@ -151,7 +156,7 @@ body{
 
 .button {
     position: relative;
-    top: 5em;
+    top: 3em;
     background-color: #56E9BF;
     color: #ffffff;
     font-family: Marvin, sans-serif;
